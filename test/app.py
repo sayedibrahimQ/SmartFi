@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 import google.generativeai as genai
 
 # Set API Key for Gemini
-genai.configure(api_key="AIzaSyDMb4fqjdezb1SHX90tjRyex0fokBAQubs")  # Replace with your API key
+genai.configure(api_key="your key")  # Replace with your API key
 
 # Function to fetch stock data
 def fetch_stock_data(ticker, period="1y"):
